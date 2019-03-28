@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">popupMenuDemo</string>
+    <string name="show_menu">show menu</string>
+    <string name="cust">customized</string>
+    <string name="xpopup">XPopup</string>
+    <string name="basepopup">BasePopup</string>
+</resources>
