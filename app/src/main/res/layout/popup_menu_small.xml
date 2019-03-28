@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
     android:background="#FFFFFF"
-    >
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/tx_1"
@@ -15,12 +13,12 @@
         android:gravity="center"
         android:padding="16dp"
         android:text="Item 1"
-        android:textSize="14sp"/>
+        android:textSize="14sp" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:background="#6c6c6c"/>
+        android:background="#6c6c6c" />
 
     <TextView
         android:id="@+id/tx_2"
@@ -29,12 +27,12 @@
         android:gravity="center"
         android:padding="16dp"
         android:text="Item 2"
-        android:textSize="14sp"/>
+        android:textSize="14sp" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:background="#6c6c6c"/>
+        android:background="#6c6c6c" />
 
     <TextView
         android:id="@+id/tx_3"
@@ -43,5 +41,5 @@
         android:gravity="center"
         android:padding="16dp"
         android:text="Item 3"
-        android:textSize="14sp"/>
+        android:textSize="14sp" />
 </LinearLayout>

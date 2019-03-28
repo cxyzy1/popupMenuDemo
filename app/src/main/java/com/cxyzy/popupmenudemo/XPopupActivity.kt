@@ -18,12 +18,12 @@ class XPopupActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cust)
         button.setOnClickListener {
-            XPopup.Builder(this)
-                    .atView(it)  // 依附于所点击的View，内部会自动判断在上方或者下方显示
-                    .asAttachList(arrayOf("分享", "编辑", "不带icon"),
-                            null
-                    ) { position, text -> Toast.makeText(this, "clicked pos:$position", Toast.LENGTH_SHORT).show() }
-                    .show()
+        XPopup.Builder(this)
+                .atView(it)  // 依附于所点击的View，内部会自动判断在上方或者下方显示
+                .asAttachList(arrayOf("Share", "Edit"),
+                        null
+                ) { position, text -> Toast.makeText(this, "clicked pos:$position", Toast.LENGTH_SHORT).show() }
+                .show()
         }
 
     }

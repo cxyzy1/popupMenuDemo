@@ -36,8 +36,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun onMenuItemClick(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.menu1 -> Toast.makeText(this, "菜单1", Toast.LENGTH_SHORT).show()
-            R.id.menu2 -> Toast.makeText(this, "菜单2", Toast.LENGTH_SHORT).show()
+            R.id.menu1 -> Toast.makeText(this, "menu1", Toast.LENGTH_SHORT).show()
+            R.id.menu2 -> Toast.makeText(this, "menu2", Toast.LENGTH_SHORT).show()
             else -> {
             }
         }
